@@ -1,0 +1,46 @@
+{
+  "n_cases": 178749,
+  "overall_rate": 0.6309126204901846,
+  "top_categories": [
+    [
+      "Textile",
+      0.9224971325577584
+    ],
+    [
+      "Tools non-electric",
+      0.8997127812350407
+    ],
+    [
+      "Jewelry",
+      0.8292426367461431
+    ]
+  ],
+  "bottom_categories": [
+    [
+      "Tools electric",
+      0.5402321083172147
+    ],
+    [
+      "Computer equipment / phones",
+      0.46384907251264756
+    ],
+    [
+      "Display and sound equipment",
+      0.4580945383296596
+    ]
+  ],
+  "top_products": [
+    [
+      "Chisel",
+      0.9915966386554622
+    ],
+    [
+      "Pyjamas",
+      0.9828571428571429
+    ],
+    [
+      "Towel",
+      0.9763779527559056
+    ]
+  ]
+}
