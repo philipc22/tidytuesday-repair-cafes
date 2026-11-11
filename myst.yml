@@ -1,0 +1,12 @@
+version: 1
+project:
+  title: Repair Cafes Worldwide
+  authors:
+    - name: Philip
+    - name: Kandra
+  github: https://github.com/philipc22/tidytuesday-repair-cafes
+  toc:
+    - file: index.md
+    - file: analysis_philip.ipynb
+site:
+  template: book-theme
