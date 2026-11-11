@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Repair Cafes Worldwide</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css">
+</head>
+<body>
+<div class="reveal"><div class="slides">
+<section data-markdown data-separator="^\n---\n"><textarea data-template>
+# Repair Cafes Worldwide
+
+TidyTuesday 2026-04-07
+
+Philip & Kandra
+
+---
+
+## The data
+
+- Repair Monitor: repairs logged by Repair Cafes worldwide
+- 178,749 repair cases from 25 countries
+- Each row is one repair attempt: product, category, country, repaired or not, repairability (1-10)
+
+---
+
+## Q1: What kinds of items are most easily repaired?
+
+<img src="figures/philip_repair_rate_by_category.png" style="max-height:480px">
+
+---
+
+## Q1 findings
+
+- Overall, 63% of items were fully repaired
+- **Easiest categories:** Textile (92%), Tools non-electric (90%), Jewelry (83%)
+- **Hardest categories:** Tools electric (54%), Computer equipment / phones (46%), Display and sound equipment (46%)
+- **Easiest products:** Chisel (99%), Pyjamas (98%), Towel (98%)
+
+---
+
+## Q2: Which countries have seen the most growth in Repair Cafe branches?
+
+<img src="figures/kandra_branch_growth.png" style="max-height:480px">
+
+---
+
+## Q2 findings: branches 2019 → 2025
+
+- **NL**: 51 → 142 branches
+- **GB**: 8 → 82 branches
+- **FR**: 11 → 81 branches
+- **US**: 6 → 30 branches
+- **DE**: 3 → 25 branches
+
+---
+
+## Caveats
+
+- "Fully repaired" counts only items answered Yes, so partial repairs are not counted
+- Branch counts reflect branches that logged repairs, not every Repair Cafe that exists
+- Correlation only: we describe patterns, not causes
+
+---
+
+## Explore it yourself
+
+- Website: philipc22.github.io/tidytuesday-repair-cafes
+- Code: github.com/philipc22/tidytuesday-repair-cafes
+
+</textarea></section>
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
+<script>Reveal.initialize({hash: true, plugins: [RevealMarkdown]});</script>
+</body>
+</html>

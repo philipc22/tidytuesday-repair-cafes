@@ -8,5 +8,6 @@ project:
   toc:
     - file: index.md
     - file: analysis_philip.ipynb
+    - file: analysis_kandra.ipynb
 site:
   template: https://github.com/jupyter-book/myst-theme/releases/download/myst-to-react%401.4.1/book-theme.zip

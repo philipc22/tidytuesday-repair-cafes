@@ -1,3 +1,11 @@
+# Repair Cafes Worldwide (TidyTuesday 2026-04-07)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/philipc22/tidytuesday-repair-cafes/main)
+
+Website: https://philipc22.github.io/tidytuesday-repair-cafes/
+
+---
+
 # Repair Cafes Worldwide
 
 The dataset this week comes from the [Repair Monitor](https://dashboard.repairmonitor.org/?language=en), which has been compiling data from Repair Cafes worldwide since 2015.
